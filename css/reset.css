@@ -8,7 +8,7 @@
   background: none;
 }
 
-/* .border {
+.border {
   border: 1px solid red;
 }
 .border2 {
@@ -19,7 +19,7 @@
 }
 .border4 {
   border: 1px solid violet;
-} */
+}
 
 body {
   color: #4c4e4d;
