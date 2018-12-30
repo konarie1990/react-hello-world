@@ -1,0 +1,11 @@
+body {
+  height: 3000px;
+  width: 1000px;
+}
+
+.dude {
+  height: 400px;
+  width: 400px;
+  color: black;
+  border: 5px red solid;
+}

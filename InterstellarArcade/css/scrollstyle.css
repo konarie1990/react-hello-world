@@ -1,0 +1,30 @@
+/* html {
+  font-size: 100%;
+} */
+
+/* body {
+  font-size: 2rem;
+  line-height: 1.6;
+} */
+
+/* before scrolled into viewport */
+.hidden {
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+/* add transformations and animations here */
+.visible {
+  opacity: 1;
+  transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+/* .other__section {
+  padding: 1em 0;
+  margin: 3em;
+  border: 5px solid royalblue;
+  opacity: 1;
+  background-color: crimson;
+  transition: all 1.5s ease;
+} */

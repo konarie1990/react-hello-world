@@ -1,0 +1,20 @@
+{
+  "games":[
+    
+      [{"title":"[Game Title 1]"}, 
+      {"description":"[Description 1]"},
+      {"image":"[Image 1]"}],
+
+      [{"title":"[Game Title 2]"}, 
+      {"description":"[Description 2]"},
+      {"image":"[Image 2]"}],
+
+      [{"title":"[Game Title 3]"}, 
+      {"description":"[Description 3]"},
+      {"image":"[Image 3]"}],
+
+      [{"title":"[Game Title 4]"}, 
+      {"description":"[Description 4]"},
+      {"image":"[Image 4]"}]
+  ]
+}

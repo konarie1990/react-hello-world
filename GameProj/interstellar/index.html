@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      Basic Page Needs
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <meta charset="utf-8" />
+    <title>Interstellar Arcade</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!--
+      Mobile Specific Metas
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      FONT
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Audiowide|Gruppo"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+
+    <!--
+      FONTAWESOME CDN
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <!--
+      CSS
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/nav-menu.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/games.css" />
+
+    <!--
+      HTML IMPORTS
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <link rel="import" href="nav-menu.html" />
+
+    <!--
+      Favicon
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+  </head>
+
+  <body>
+    <!--
+      Primary Page Layout
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+
+    <main>
+      <section id="hero-section" class="container">
+        <div id="hero-content">
+          <h1 id="hero-title">Interstellar Arcade</h1>
+          <p id="hero-subtitle">Insert clever slogan here...</p>
+          <a id="scroll-arrow" class="animated" href="#games-container"
+            ><i class="fas fa-arrow-down"></i
+          ></a>
+        </div>
+      </section>
+
+      <section id="games-section">
+        <!-- Banners on side of page -->
+        <div class="side-banner banner-left"></div>
+        <!-- Container for games -->
+        <div id="games-container" class="games-container"></div>
+        <div class="side-banner banner-right"></div>
+      </section>
+    </main>
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/nav-menu.js"></script>
+    <script type="text/javascript" src="js/scrollscript.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <!--
+      End Document
+      ––––––––––––––––––––––––––––––––––––––––––––––––––
+    -->
+  </body>
+</html>
